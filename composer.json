@@ -1,0 +1,17 @@
+{
+  "name": "verzola/dojo-php",
+  "require": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "authors": [
+    {
+      "name": "Gustavo Verzola",
+      "email": "verzola@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "verzola\\": "src/"
+    }
+  }
+}
