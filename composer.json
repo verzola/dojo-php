@@ -1,5 +1,6 @@
 {
   "name": "verzola/dojo-php",
+  "description": "structure to train php unit tests",
   "require": {
     "phpunit/phpunit": "^9.5"
   },
