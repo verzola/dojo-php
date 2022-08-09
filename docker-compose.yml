@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+  php:
+    container_name: php
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/var/www/html
+    network_mode: "host"
+  composer:
+    container_name: composer
+    image: composer
+    user: "1000"
+    volumes:
+      - .:/app
+    command: install -o
+    depends_on:
+      - php
