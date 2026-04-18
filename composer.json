@@ -3,7 +3,7 @@
   "description": "structure to train php unit tests",
   "license": "proprietary",
   "require": {
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^12.5"
   },
   "authors": [
     {
